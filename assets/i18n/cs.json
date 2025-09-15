@@ -1,0 +1,7 @@
+{
+  "app_title": "DPF Notifikátor",
+  "bluetooth_state": "Stav Bluetooth",
+  "rpm": "Otáčky motoru",
+  "dpf_regen_active": "⚠️ POZOR: Probíhá regenerace DPF ⚠️",
+  "dpf_regen_finished": "Regenerace DPF dokončena"
+}
