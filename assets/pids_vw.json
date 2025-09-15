@@ -1,0 +1,6 @@
+{
+  "rpm": { "mode": "41", "pid": "0C", "desc": "Engine RPM" },
+  "egt1": { "mode": "22", "pid": "1001", "desc": "Exhaust Gas Temp Bank1" },
+  "soot_mass_calc": { "mode": "22", "pid": "114F", "desc": "Soot Mass Calculated" },
+  "regen_flag": { "mode": "22", "pid": "F190", "desc": "DPF Regeneration Active Flag" }
+}
