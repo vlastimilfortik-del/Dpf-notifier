@@ -1,0 +1,7 @@
+{
+  "app_title": "DPF Notifier",
+  "bluetooth_state": "Bluetooth state",
+  "rpm": "Engine RPM",
+  "dpf_regen_active": "⚠️ WARNING: DPF Regeneration Active ⚠️",
+  "dpf_regen_finished": "DPF Regeneration Finished"
+}
