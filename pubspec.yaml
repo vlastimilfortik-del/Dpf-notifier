@@ -1,0 +1,25 @@
+name: dpf_notifier
+description: DPF Notifier prototype skeleton
+publish_to: "none"
+version: 0.3.0
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bluetooth_serial: ^0.5.0
+  flutter_blue_plus: ^1.32.0
+  flutter_local_notifications: ^9.8.0
+  flutter_foreground_task: ^3.8.0
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.18.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/pids_vw.json
+    - assets/i18n/en.json
+    - assets/i18n/cs.json
