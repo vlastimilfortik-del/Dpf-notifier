@@ -1,25 +1,31 @@
 name: dpf_notifier
-description: DPF Notifier prototype skeleton
+description: Minimal DPF regen notifier prototype
 publish_to: "none"
-version: 0.3.0
+version: 0.1.0
 
 environment:
-  sdk: ">=2.17.0 <3.0.0"
+  sdk: ">=3.3.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  flutter_bluetooth_serial: ^0.4.0
-  flutter_blue_plus: ^1.32.0
-  flutter_local_notifications: ^9.8.0
-  flutter_foreground_task: ^3.8.0
+
+  # Notifikace (udržovaný balíček)
+  flutter_local_notifications: ^17.2.1
+
+  # Bluetooth
+  # ⚠️ starý flutter_bluetooth_serial NEPOUŽÍVAT
+  # pokud ti stačí BLE (novější adaptéry), použij:
+  flutter_blue_plus: ^1.32.5
+
+  # pokud budeš nutně potřebovat klasický SPP (pro staré ELM327),
+  # najdeme společně udržovaný fork nebo řešení přes platform channel
+
+  # Lokalizace
   flutter_localizations:
     sdk: flutter
-intl: ^0.19.0
+  intl: ^0.19.0
 
-flutter:
-  uses-material-design: true
-  assets:
-    - assets/pids_vw.json
-    - assets/i18n/en.json
-    - assets/i18n/cs.json
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
