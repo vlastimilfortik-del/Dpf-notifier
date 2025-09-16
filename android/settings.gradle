@@ -16,5 +16,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "dpf_notifier"
 include(":app")
-
-apply from: "$rootDir/../flutter_tools/gradle/app_plugin_loader.gradle"
