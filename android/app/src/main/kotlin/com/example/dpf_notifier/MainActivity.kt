@@ -1,1 +1,7 @@
-android/app/src/main/kotlin/com/example/dpf_notifier/MainActivity.kt
+
+package com.example.dpf_notifier
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}
