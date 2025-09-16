@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_bluetooth_serial: ^0.5.0
+  flutter_bluetooth_serial: ^0.4.0
   flutter_blue_plus: ^1.32.0
   flutter_local_notifications: ^9.8.0
   flutter_foreground_task: ^3.8.0
