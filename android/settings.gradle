@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Dpf-notifier"
+rootProject.name = "dpf_notifier"
 include(":app")
